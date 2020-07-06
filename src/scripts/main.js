@@ -8,7 +8,7 @@ const API = "https://api.github.com/users/";
 /**
  * Render column header of the table
  * @function renderColumns
- * @return {void}
+ * @return {string}
  */
 
 const renderColumns = () => {
@@ -77,7 +77,7 @@ const fetchRepo = async (user) => {
  * Get all repositories (when there is more than 1 repos tag) from github
  * @function getAllRepositories
  * Single repositories are fetched using {@link fetchRepo} function.
- * @return {Object}
+ * @return {Array}
  */
 
 const getAllRepositories = async () => {
