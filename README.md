@@ -1,4 +1,4 @@
-# Github repository fetcher
+# Github Repository Fetcher
 
 App to display information from github api about user's repository updated after the given date
 
