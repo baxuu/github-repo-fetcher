@@ -1,15 +1,45 @@
 # Github Repository Fetcher
 
-App to display information from github api about user's repository updated after the given date
+Simple app to display information from github API about user's repository updated after the given date
 
-### Features:
+![](https://github.com/baxuu/github-repo-fetcher/blob/master/src/assets/example.jpg?raw=true)
 
-- HTML, SASS, JavaScript, API
+## Built with
 
+- `pure JS`
+- `HTML`
+- `API call`
+- `preprocesor scss`
+- `dokumentacja JSDocs `
 
-In the project directory, you can run:
-#### `npm install`
-#### `npm run dev`
+## Installation
 
-Runs the app in the development mode.
-Open [http://localhost:1234](http://localhost:3000) to view it in the browser.
+Clone or download repository
+
+```
+git clone https://github.com/baxuu/github-repo-fetcher.git
+```
+
+than
+
+```
+cd github-repo-fetcher
+```
+
+Install packages
+
+```
+npm install
+```
+
+## Running
+
+App will start on port **_1234_**. Run command:
+
+```
+npm run dev
+```
+
+## Author
+
+Artur Królczyk _baxuu_
